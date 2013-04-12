@@ -7,7 +7,8 @@
       "dependencies": {
         "ycssmin": {
           "version": "1.0.1",
-          "from": "ycssmin@1.0.1"
+          "from": "ycssmin@1.0.1",
+          "resolved": "https://registry.npmjs.org/ycssmin/-/ycssmin-1.0.1.tgz"
         }
       }
     }

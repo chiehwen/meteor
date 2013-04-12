@@ -78,6 +78,12 @@ _.extend(Meteor._SynchronousQueue.prototype, {
     self._scheduleRun();
     // No need to block.
   },
+
+  flush: function () {
+    var self = this;
+    self.runTask(function () {});
+  },
+
   taskRunning: function () {
     var self = this;
     return self._taskRunning;

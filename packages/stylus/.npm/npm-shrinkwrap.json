@@ -2,7 +2,7 @@
   "dependencies": {
     "nib": {
       "version": "0.8.2",
-      "from": "nib@0.8.2",
+      "from": "https://registry.npmjs.org/nib/-/nib-0.8.2.tgz",
       "resolved": "https://registry.npmjs.org/nib/-/nib-0.8.2.tgz"
     },
     "stylus": {
@@ -12,7 +12,8 @@
       "dependencies": {
         "cssom": {
           "version": "0.2.5",
-          "from": "cssom@0.2.5"
+          "from": "cssom@0.2.5",
+          "resolved": "https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz"
         },
         "mkdirp": {
           "version": "0.3.5",
@@ -21,7 +22,7 @@
         },
         "debug": {
           "version": "0.7.2",
-          "from": "debug@0.7.2",
+          "from": "https://registry.npmjs.org/debug/-/debug-0.7.2.tgz",
           "resolved": "https://registry.npmjs.org/debug/-/debug-0.7.2.tgz"
         }
       }
